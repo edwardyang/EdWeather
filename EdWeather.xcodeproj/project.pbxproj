@@ -1,0 +1,499 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B2D2F72163D709200A79952 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B2D2F71163D709200A79952 /* UIKit.framework */; };
+		2B2D2F74163D709200A79952 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B2D2F73163D709200A79952 /* Foundation.framework */; };
+		2B2D2F76163D709200A79952 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B2D2F75163D709200A79952 /* CoreGraphics.framework */; };
+		2B2D2F7C163D709200A79952 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2B2D2F7A163D709200A79952 /* InfoPlist.strings */; };
+		2B2D2F7E163D709200A79952 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B2D2F7D163D709200A79952 /* main.m */; };
+		2B2D2F82163D709200A79952 /* EdAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B2D2F81163D709200A79952 /* EdAppDelegate.m */; };
+		2B2D2F84163D709200A79952 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B2D2F83163D709200A79952 /* Default.png */; };
+		2B2D2F86163D709200A79952 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B2D2F85163D709200A79952 /* Default@2x.png */; };
+		2B2D2F88163D709200A79952 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B2D2F87163D709200A79952 /* Default-568h@2x.png */; };
+		2B2D2F8B163D709200A79952 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B2D2F89163D709200A79952 /* MainStoryboard_iPhone.storyboard */; };
+		2B2D2F8E163D709200A79952 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B2D2F8C163D709200A79952 /* MainStoryboard_iPad.storyboard */; };
+		2B2D2F91163D709200A79952 /* EdFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B2D2F90163D709200A79952 /* EdFirstViewController.m */; };
+		2B2D2F93163D709200A79952 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B2D2F92163D709200A79952 /* first.png */; };
+		2B2D2F95163D709200A79952 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B2D2F94163D709200A79952 /* first@2x.png */; };
+		2B2D2F98163D709200A79952 /* EdSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B2D2F97163D709200A79952 /* EdSecondViewController.m */; };
+		2B2D2F9A163D709200A79952 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B2D2F99163D709200A79952 /* second.png */; };
+		2B2D2F9C163D709200A79952 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B2D2F9B163D709200A79952 /* second@2x.png */; };
+		2B2D2FA4163D709200A79952 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B2D2FA3163D709200A79952 /* SenTestingKit.framework */; };
+		2B2D2FA5163D709200A79952 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B2D2F71163D709200A79952 /* UIKit.framework */; };
+		2B2D2FA6163D709200A79952 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B2D2F73163D709200A79952 /* Foundation.framework */; };
+		2B2D2FAE163D709300A79952 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2B2D2FAC163D709300A79952 /* InfoPlist.strings */; };
+		2B2D2FB1163D709300A79952 /* EdWeatherTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B2D2FB0163D709300A79952 /* EdWeatherTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2B2D2FA7163D709300A79952 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B2D2F64163D709200A79952 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B2D2F6C163D709200A79952;
+			remoteInfo = EdWeather;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2B2D2F6D163D709200A79952 /* EdWeather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EdWeather.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B2D2F71163D709200A79952 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2B2D2F73163D709200A79952 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2B2D2F75163D709200A79952 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2B2D2F79163D709200A79952 /* EdWeather-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EdWeather-Info.plist"; sourceTree = "<group>"; };
+		2B2D2F7B163D709200A79952 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2B2D2F7D163D709200A79952 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2B2D2F7F163D709200A79952 /* EdWeather-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EdWeather-Prefix.pch"; sourceTree = "<group>"; };
+		2B2D2F80163D709200A79952 /* EdAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EdAppDelegate.h; sourceTree = "<group>"; };
+		2B2D2F81163D709200A79952 /* EdAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EdAppDelegate.m; sourceTree = "<group>"; };
+		2B2D2F83163D709200A79952 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		2B2D2F85163D709200A79952 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		2B2D2F87163D709200A79952 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		2B2D2F8A163D709200A79952 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		2B2D2F8D163D709200A79952 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		2B2D2F8F163D709200A79952 /* EdFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EdFirstViewController.h; sourceTree = "<group>"; };
+		2B2D2F90163D709200A79952 /* EdFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EdFirstViewController.m; sourceTree = "<group>"; };
+		2B2D2F92163D709200A79952 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		2B2D2F94163D709200A79952 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		2B2D2F96163D709200A79952 /* EdSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EdSecondViewController.h; sourceTree = "<group>"; };
+		2B2D2F97163D709200A79952 /* EdSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EdSecondViewController.m; sourceTree = "<group>"; };
+		2B2D2F99163D709200A79952 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		2B2D2F9B163D709200A79952 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		2B2D2FA2163D709200A79952 /* EdWeatherTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EdWeatherTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B2D2FA3163D709200A79952 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		2B2D2FAB163D709300A79952 /* EdWeatherTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EdWeatherTests-Info.plist"; sourceTree = "<group>"; };
+		2B2D2FAD163D709300A79952 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2B2D2FAF163D709300A79952 /* EdWeatherTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EdWeatherTests.h; sourceTree = "<group>"; };
+		2B2D2FB0163D709300A79952 /* EdWeatherTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EdWeatherTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2B2D2F6A163D709200A79952 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B2D2F72163D709200A79952 /* UIKit.framework in Frameworks */,
+				2B2D2F74163D709200A79952 /* Foundation.framework in Frameworks */,
+				2B2D2F76163D709200A79952 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B2D2F9E163D709200A79952 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B2D2FA4163D709200A79952 /* SenTestingKit.framework in Frameworks */,
+				2B2D2FA5163D709200A79952 /* UIKit.framework in Frameworks */,
+				2B2D2FA6163D709200A79952 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B2D2F62163D709200A79952 = {
+			isa = PBXGroup;
+			children = (
+				2B2D2F77163D709200A79952 /* EdWeather */,
+				2B2D2FA9163D709300A79952 /* EdWeatherTests */,
+				2B2D2F70163D709200A79952 /* Frameworks */,
+				2B2D2F6E163D709200A79952 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2B2D2F6E163D709200A79952 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2B2D2F6D163D709200A79952 /* EdWeather.app */,
+				2B2D2FA2163D709200A79952 /* EdWeatherTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2B2D2F70163D709200A79952 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2B2D2F71163D709200A79952 /* UIKit.framework */,
+				2B2D2F73163D709200A79952 /* Foundation.framework */,
+				2B2D2F75163D709200A79952 /* CoreGraphics.framework */,
+				2B2D2FA3163D709200A79952 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2B2D2F77163D709200A79952 /* EdWeather */ = {
+			isa = PBXGroup;
+			children = (
+				2B2D2F80163D709200A79952 /* EdAppDelegate.h */,
+				2B2D2F81163D709200A79952 /* EdAppDelegate.m */,
+				2B2D2F89163D709200A79952 /* MainStoryboard_iPhone.storyboard */,
+				2B2D2F8C163D709200A79952 /* MainStoryboard_iPad.storyboard */,
+				2B2D2F8F163D709200A79952 /* EdFirstViewController.h */,
+				2B2D2F90163D709200A79952 /* EdFirstViewController.m */,
+				2B2D2F92163D709200A79952 /* first.png */,
+				2B2D2F94163D709200A79952 /* first@2x.png */,
+				2B2D2F96163D709200A79952 /* EdSecondViewController.h */,
+				2B2D2F97163D709200A79952 /* EdSecondViewController.m */,
+				2B2D2F99163D709200A79952 /* second.png */,
+				2B2D2F9B163D709200A79952 /* second@2x.png */,
+				2B2D2F78163D709200A79952 /* Supporting Files */,
+			);
+			path = EdWeather;
+			sourceTree = "<group>";
+		};
+		2B2D2F78163D709200A79952 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2B2D2F79163D709200A79952 /* EdWeather-Info.plist */,
+				2B2D2F7A163D709200A79952 /* InfoPlist.strings */,
+				2B2D2F7D163D709200A79952 /* main.m */,
+				2B2D2F7F163D709200A79952 /* EdWeather-Prefix.pch */,
+				2B2D2F83163D709200A79952 /* Default.png */,
+				2B2D2F85163D709200A79952 /* Default@2x.png */,
+				2B2D2F87163D709200A79952 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2B2D2FA9163D709300A79952 /* EdWeatherTests */ = {
+			isa = PBXGroup;
+			children = (
+				2B2D2FAF163D709300A79952 /* EdWeatherTests.h */,
+				2B2D2FB0163D709300A79952 /* EdWeatherTests.m */,
+				2B2D2FAA163D709300A79952 /* Supporting Files */,
+			);
+			path = EdWeatherTests;
+			sourceTree = "<group>";
+		};
+		2B2D2FAA163D709300A79952 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2B2D2FAB163D709300A79952 /* EdWeatherTests-Info.plist */,
+				2B2D2FAC163D709300A79952 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2B2D2F6C163D709200A79952 /* EdWeather */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B2D2FB4163D709300A79952 /* Build configuration list for PBXNativeTarget "EdWeather" */;
+			buildPhases = (
+				2B2D2F69163D709200A79952 /* Sources */,
+				2B2D2F6A163D709200A79952 /* Frameworks */,
+				2B2D2F6B163D709200A79952 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EdWeather;
+			productName = EdWeather;
+			productReference = 2B2D2F6D163D709200A79952 /* EdWeather.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2B2D2FA1163D709200A79952 /* EdWeatherTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B2D2FB7163D709300A79952 /* Build configuration list for PBXNativeTarget "EdWeatherTests" */;
+			buildPhases = (
+				2B2D2F9D163D709200A79952 /* Sources */,
+				2B2D2F9E163D709200A79952 /* Frameworks */,
+				2B2D2F9F163D709200A79952 /* Resources */,
+				2B2D2FA0163D709200A79952 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B2D2FA8163D709300A79952 /* PBXTargetDependency */,
+			);
+			name = EdWeatherTests;
+			productName = EdWeatherTests;
+			productReference = 2B2D2FA2163D709200A79952 /* EdWeatherTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2B2D2F64163D709200A79952 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Ed;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = Edward;
+			};
+			buildConfigurationList = 2B2D2F67163D709200A79952 /* Build configuration list for PBXProject "EdWeather" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2B2D2F62163D709200A79952;
+			productRefGroup = 2B2D2F6E163D709200A79952 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2B2D2F6C163D709200A79952 /* EdWeather */,
+				2B2D2FA1163D709200A79952 /* EdWeatherTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2B2D2F6B163D709200A79952 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B2D2F7C163D709200A79952 /* InfoPlist.strings in Resources */,
+				2B2D2F84163D709200A79952 /* Default.png in Resources */,
+				2B2D2F86163D709200A79952 /* Default@2x.png in Resources */,
+				2B2D2F88163D709200A79952 /* Default-568h@2x.png in Resources */,
+				2B2D2F8B163D709200A79952 /* MainStoryboard_iPhone.storyboard in Resources */,
+				2B2D2F8E163D709200A79952 /* MainStoryboard_iPad.storyboard in Resources */,
+				2B2D2F93163D709200A79952 /* first.png in Resources */,
+				2B2D2F95163D709200A79952 /* first@2x.png in Resources */,
+				2B2D2F9A163D709200A79952 /* second.png in Resources */,
+				2B2D2F9C163D709200A79952 /* second@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B2D2F9F163D709200A79952 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B2D2FAE163D709300A79952 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2B2D2FA0163D709200A79952 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2B2D2F69163D709200A79952 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B2D2F7E163D709200A79952 /* main.m in Sources */,
+				2B2D2F82163D709200A79952 /* EdAppDelegate.m in Sources */,
+				2B2D2F91163D709200A79952 /* EdFirstViewController.m in Sources */,
+				2B2D2F98163D709200A79952 /* EdSecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B2D2F9D163D709200A79952 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B2D2FB1163D709300A79952 /* EdWeatherTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2B2D2FA8163D709300A79952 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2B2D2F6C163D709200A79952 /* EdWeather */;
+			targetProxy = 2B2D2FA7163D709300A79952 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2B2D2F7A163D709200A79952 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B2D2F7B163D709200A79952 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2B2D2F89163D709200A79952 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B2D2F8A163D709200A79952 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		2B2D2F8C163D709200A79952 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B2D2F8D163D709200A79952 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		2B2D2FAC163D709300A79952 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B2D2FAD163D709300A79952 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2B2D2FB2163D709300A79952 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2B2D2FB3163D709300A79952 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2B2D2FB5163D709300A79952 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EdWeather/EdWeather-Prefix.pch";
+				INFOPLIST_FILE = "EdWeather/EdWeather-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2B2D2FB6163D709300A79952 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EdWeather/EdWeather-Prefix.pch";
+				INFOPLIST_FILE = "EdWeather/EdWeather-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		2B2D2FB8163D709300A79952 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/EdWeather.app/EdWeather";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EdWeather/EdWeather-Prefix.pch";
+				INFOPLIST_FILE = "EdWeatherTests/EdWeatherTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		2B2D2FB9163D709300A79952 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/EdWeather.app/EdWeather";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EdWeather/EdWeather-Prefix.pch";
+				INFOPLIST_FILE = "EdWeatherTests/EdWeatherTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2B2D2F67163D709200A79952 /* Build configuration list for PBXProject "EdWeather" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B2D2FB2163D709300A79952 /* Debug */,
+				2B2D2FB3163D709300A79952 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B2D2FB4163D709300A79952 /* Build configuration list for PBXNativeTarget "EdWeather" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B2D2FB5163D709300A79952 /* Debug */,
+				2B2D2FB6163D709300A79952 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2B2D2FB7163D709300A79952 /* Build configuration list for PBXNativeTarget "EdWeatherTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B2D2FB8163D709300A79952 /* Debug */,
+				2B2D2FB9163D709300A79952 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2B2D2F64163D709200A79952 /* Project object */;
+}
